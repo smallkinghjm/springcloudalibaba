@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 120.79.120.218:8847  # nacos地址(配置中心)
+        username: nacos
+        password: nacos
+      discovery:
+        server-addr: 120.79.120.218:8847 # nacos地址(注册中心)
+        username: nacos
+        password: nacos
