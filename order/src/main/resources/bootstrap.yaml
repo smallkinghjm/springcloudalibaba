@@ -11,3 +11,8 @@ spring:
         server-addr: 120.79.120.218:8847 # nacos地址(注册中心)
         username: nacos
         password: nacos
+
+## Ribbon的负载均衡策略，权重在页面配置
+#stock-service:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule
