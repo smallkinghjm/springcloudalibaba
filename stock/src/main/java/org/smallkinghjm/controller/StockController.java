@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/stock")
 public class StockController {
-    @RequestMapping("/name")
+    @RequestMapping("/reduct")
     public String demo(){
-        return "8081";
+        return "8081已扣减库存";
     }
 }
