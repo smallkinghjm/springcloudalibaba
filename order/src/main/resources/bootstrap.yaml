@@ -3,14 +3,15 @@ spring:
     name: order-service
   cloud:
     nacos:
+      server-addr: 120.79.120.218:8847  # nacos地址
+      username: nacos
+      password: nacos
       config:
-        server-addr: 120.79.120.218:8847  # nacos地址(配置中心)
-        username: nacos
-        password: nacos
+        namespace: dev
+        file-extension: yaml
       discovery:
-        server-addr: 120.79.120.218:8847 # nacos地址(注册中心)
-        username: nacos
-        password: nacos
+        namespace: dev
+
 
 ## Ribbon的负载均衡策略，权重在页面配置
 #stock-service:
