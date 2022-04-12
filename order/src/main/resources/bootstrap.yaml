@@ -11,6 +11,9 @@ spring:
         file-extension: yaml
       discovery:
         namespace: dev
+    sentinel:
+      transport:
+        dashboard: 120.79.120.218:8858 #sentinel控制台地址
 
 
 ## Ribbon的负载均衡策略，权重在页面配置

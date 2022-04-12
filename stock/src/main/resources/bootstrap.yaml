@@ -1,8 +1,11 @@
 spring:
-  application:
-    name: stock-service
   cloud:
     nacos:
       server-addr: 120.79.120.218:8847  # nacos地址
       username: nacos
       password: nacos
+      config:
+        namespace: dev
+        file-extension: yaml
+      discovery:
+        namespace: dev

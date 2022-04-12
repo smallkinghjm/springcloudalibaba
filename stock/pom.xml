@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <!--服务提供方-->
     <artifactId>stock</artifactId>
 
     <properties>

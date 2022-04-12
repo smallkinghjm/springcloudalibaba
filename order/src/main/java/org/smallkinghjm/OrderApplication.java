@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 public class OrderApplication {
     public static void main(String[] args) {
         ConfigurableApplicationContext run = SpringApplication.run(OrderApplication.class, args);
-        printConfig(run);
+//        printConfig(run);
     }
 
     //动态感知nacos-config的配置
